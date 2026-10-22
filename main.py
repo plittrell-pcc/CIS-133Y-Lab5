@@ -35,7 +35,7 @@ def display_menu():
     print("2. Add New Gear Item")
     print("3. Edit Existing Gear Item")
     print("4. Delete Gear Item")
-    print("5. Sort Gear List Alphabetically")
+    print("5. Sort Gear List A-Z")
     print("6. Quit Program")
 
 
