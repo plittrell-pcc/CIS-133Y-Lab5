@@ -7,8 +7,9 @@
 #         validates user input , and imports modular functions to add, edit,
 #         delete, and display inventory items.
 #
-# Input:  Menu choices, gear item names, and item quantities.
-# Output: Formatted camping gear inventory list and success/error messages.
+# Input:  Menu choices, gear item names, item quantities and sort features.
+# Output: Formatted camping gear inventory list and success/error messages,
+# along with a sorting feature.
 # Source: Module 5 Lab
 # GitHub: https://github.com/plittrell-pcc/CIS-133Y-Lab5
 #
@@ -34,7 +35,9 @@ def display_menu():
     print("2. Add New Gear Item")
     print("3. Edit Existing Gear Item")
     print("4. Delete Gear Item")
-    print("5. Quit Program")
+    print("5. Sort Gear List Alphabetically")
+    print("6. Quit Program")
+
 
 
 def main():
@@ -53,7 +56,7 @@ def main():
         choice = m2.get_menu_choice()
 
         if choice == 1:
-            # Needs to be added from Module 2
+            # Module 2 contains display function
             m2.display_inventory(gear_inventory)
 
         elif choice == 2:
@@ -65,10 +68,20 @@ def main():
             m1.edit_item(gear_inventory)
 
         elif choice == 4:
-            # Needs to be added from Module 2
+            # Module 2 contains delete function
             m2.delete_item(gear_inventory)
 
+
         elif choice == 5:
+            # Sorts the gear alphabetically
+            print("\n--- Sorted Gear Inventory (A → Z) ---")
+            for item in sorted(gear_inventory):
+                print(f"{item}: {gear_inventory[item]}")
+            print()
+
+
+        elif choice == 6:
+
             print("\nThank you for using the Camping Gear Inventory. Safe travels!")
             break
 
