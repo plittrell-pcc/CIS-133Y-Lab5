@@ -9,7 +9,7 @@
 # ****************************************************************************
 
 def get_menu_choice():
-    # Ask user for a menu option and make sure it's valid
+    # Asks user for a menu option and make sure it's valid
     while True:
         try:
             choice = int(input("\nChoose an option (1-5): "))
@@ -31,7 +31,7 @@ def display_inventory(inventory):
 
     for item, qty in inventory.items():
         print(f"{item}: {qty}")
-    print()  # spacing
+    print()  # Adds spacing
 
 
 def delete_item(inventory):
