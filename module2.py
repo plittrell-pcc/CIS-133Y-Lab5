@@ -12,11 +12,11 @@ def get_menu_choice():
     # Asks user for a menu option and make sure it's valid
     while True:
         try:
-            choice = int(input("\nChoose an option (1-5): "))
-            if 1 <= choice <= 5:
+            choice = int(input("\nChoose an option (1-6): "))
+            if 1 <= choice <= 6:
                 return choice
             else:
-                print("Please pick a number between 1 and 5.")
+                print("Please pick a number between 1 and 6.")
         except ValueError:
             print("That's not a number. Try again.")
 
