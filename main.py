@@ -16,7 +16,9 @@
 # ***************************************************************************
 
 import module1 as m1  # PL: Added module for adding and editing items
-import module2 as m2  # To be added by partner
+import module2 as m2  # AG: Added module for menu validation, display
+#                           formatting, and deletion
+
 
 def print_welcome_message():
     print("===========================================================")
@@ -81,7 +83,7 @@ def main():
 
 
         elif choice == 6:
-
+            # Exits program
             print("\nThank you for using the Camping Gear Inventory. Safe travels!")
             break
 
