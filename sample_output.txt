@@ -1,0 +1,120 @@
+===========================================================
+            CAMPING GEAR & SUPPLY CHECKLIST
+===========================================================
+This program helps you manage your camping gear inventory
+by adding, editing, viewing, and removing checklist items.
+
+Please follow the prompts below to get started!
+
+-----------------------------------------------------------
+
+--- MAIN MENU ---
+
+1. View Current Gear List
+2. Add New Gear Item
+3. Edit Existing Gear Item
+4. Delete Gear Item
+5. Sort Gear List A-Z
+6. Quit Program
+
+Choose an option (1-6): 1
+
+--- Current Gear Inventory ---
+Tent: 1
+Sleeping Bag: 2
+Camp Stove: 1
+Water Filter: 1
+
+--- MAIN MENU ---
+
+1. View Current Gear List
+2. Add New Gear Item
+3. Edit Existing Gear Item
+4. Delete Gear Item
+5. Sort Gear List A-Z
+6. Quit Program
+
+Choose an option (1-6): 2
+
+--- Add New Gear Item ---
+Enter gear item name: Water Bottle
+Enter quantity for 'Water Bottle': 1
+
+-> Success: Added 1 'Water Bottle'(s) to inventory.
+
+--- MAIN MENU ---
+
+1. View Current Gear List
+2. Add New Gear Item
+3. Edit Existing Gear Item
+4. Delete Gear Item
+5. Sort Gear List A-Z
+6. Quit Program
+
+Choose an option (1-6): 3
+
+--- Edit Existing Gear Item ---
+Current Items:
+ - Tent: 1
+ - Sleeping Bag: 2
+ - Camp Stove: 1
+ - Water Filter: 1
+ - Water Bottle: 1
+
+Enter the exact name of the item you want to edit: Sleeping Bag
+Enter new quantity for 'Sleeping Bag' (current: 2): 1
+
+-> Success: Updated 'Sleeping Bag' quantity to 1.
+
+--- MAIN MENU ---
+
+1. View Current Gear List
+2. Add New Gear Item
+3. Edit Existing Gear Item
+4. Delete Gear Item
+5. Sort Gear List A-Z
+6. Quit Program
+
+Choose an option (1-6): 4
+
+--- Delete Gear Item ---
+Items:
+Tent: 1
+Sleeping Bag: 1
+Camp Stove: 1
+Water Filter: 1
+Water Bottle: 1
+
+Enter the item to delete: Water Filter
+How many 'Water Filter' do you want to delete? 1
+Removed all 'Water Filter' from the inventory.
+
+--- MAIN MENU ---
+
+1. View Current Gear List
+2. Add New Gear Item
+3. Edit Existing Gear Item
+4. Delete Gear Item
+5. Sort Gear List A-Z
+6. Quit Program
+
+Choose an option (1-6): 5
+
+--- Sorted Gear Inventory (A → Z) ---
+Camp Stove: 1
+Sleeping Bag: 1
+Tent: 1
+Water Bottle: 1
+
+--- MAIN MENU ---
+
+1. View Current Gear List
+2. Add New Gear Item
+3. Edit Existing Gear Item
+4. Delete Gear Item
+5. Sort Gear List A-Z
+6. Quit Program
+
+Choose an option (1-6): 6
+
+Thank you for using the Camping Gear Inventory. Safe travels!
